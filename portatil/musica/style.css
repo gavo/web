@@ -1,0 +1,123 @@
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#FFF;
+	background-color:#000000;
+	margin:1px;
+}
+#wrapper {
+	width:800px;
+	margin:auto;
+	background-color:#ECECFF;	
+}
+#header {
+	background-image:url(file:///H|/algo/videoteca/img/header_bg.png);
+	background-repeat:no-repeat;
+	height:120px;
+}
+#menu {
+	background-image:url(file:///H|/algo/videoteca/img/menu_bg.png);
+	height:24px;
+	padding-top:6px;
+	text-align:center;
+}
+#menu a, #footer a{
+	color:#FFFFFF;
+	text-decoration:none;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+h2 a{
+	color:#F00;
+	background-color:#FFF;
+	text-decoration:none;
+	font-weight:bold;
+	text-transform:capitalize;	
+}
+h2 a:hover{
+	background-color:#F00;
+	color:#FFF;
+}
+h4 a{
+	color:#F00;
+	text-decoration:none;
+	font-weight:bold;
+	text-transform:capitalize;	
+}
+a{
+	color:#F00;
+	text-decoration:none;
+	font-weight:bold;
+	text-transform:capitalize;	
+}
+
+h4 a:hover{
+	background-color:#F00;
+	color:#FFF;
+}
+h5 a{
+	color:#F00;
+	text-decoration:none;
+	font-weight:bold;
+	text-transform:capitalize;	
+}
+h5 a:hover{
+	background-color:#F00;
+	color:#FFF;
+}
+
+#menu a:hover, #footer a:hover{
+	background-color:#FFF;
+	color:#F00;
+}
+#contenido {
+	padding:20px;
+}
+#footer {
+	height:80px;
+	padding-top:20px;
+	color:#FFFFFF;
+	text-align:center;
+	background-image:url(file:///H|/algo/videoteca/img/footer_bg.png);
+}
+h1 {
+	color:#003;
+	font-size:18px;
+	border-bottom:1px solid #FF9900;
+	padding-bottom:10px;
+	text-transform:uppercase;
+}
+h6{
+	text-align:center;
+}
+#sobreponer{
+	position: relative;
+}
+.sobre {
+	position:absolute;
+	top:0px;
+	left:0px;
+	border:none;
+}
+.letra{
+	top:0px;
+	position:absolute;
+	left:3px;
+	right:3px;
+	text-align:center;
+	color:#F00;
+	text-transform:capitalize;
+}
+.box{
+	background-color:#F88;	
+}
+.Capital{
+	text-transform:capitalize;		
+}
+video{
+	border-color:#000;
+	border:outset;
+	color:#8892E6;
+	background-size:cover;
+}
